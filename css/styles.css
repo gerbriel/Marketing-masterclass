@@ -1,22 +1,33 @@
-button {
-    background-color: navy;
-    color: white;
-    border: 0px ;
-    padding: 15px;
-}
-button:hover{
-    background-color: blue;
+.container{ 
+    width: 100vw;
 }
 
-button:active{
-    background-color: pink;
+.hero{
+    background-image: url('https://images.pexels.com/photos/7688343/pexels-photo-7688343.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
+    height: 75vh;
+    background-size: cover;
+    background-position: bottom left;
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
 }
-.container{
-    height: 100%;
-    width:auto;
-    background-image: linear-gradient(to bottom right, rgba(60, 100, 166,.25), rgba(255, 242, 0,.75));
+
+.hero-section{
+    width: 100vw;
 }
-section{
-    height: 300px;
-    background-image: url('https://images.pexels.com/photos/1320674/pexels-photo-1320674.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
-   }
+
+
+.btn{
+    background-image: linear-gradient(rgba(252,253,101,1),rgba(253,197,33,1));
+}
+
+.navbar{
+    background-color: #1685F0;
+}
+.logos{
+    width: 200px;
+}
+
+#benefits{
+    background-image: linear-gradient(rgba(0,174,239,1),rgba(30,116,239,1), rgba(91,0,239,1));
+    height: 200px;
+}
