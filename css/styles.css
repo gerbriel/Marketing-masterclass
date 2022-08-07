@@ -29,5 +29,33 @@
 
 #benefits{
     background-image: linear-gradient(rgba(0,174,239,1),rgba(30,116,239,1), rgba(91,0,239,1));
+}
+
+.fa-star{
+    font-size: 5rem;
+    color: white;
+}
+
+#testimonials{
+    background-image: linear-gradient(rgba(0,174,239,1),rgba(30,116,239,1), rgba(91,0,239,1));
+}
+.box{
+    width: 30vw;
     height: 200px;
+    background-color: aliceblue;
+}
+.track-box{
+    margin: 30px;
+}
+.tracks{
+    background-color: #00AEEF;
+}
+#sponsors{
+    background-image: linear-gradient( rgba(0,174,239,1),rgba(30,116,239,1), rgba(91,0,239,1));
+
+}
+
+footer{
+    background-color: #00AEEF;
+    height: 150px; 
 }
