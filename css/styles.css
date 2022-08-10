@@ -32,7 +32,9 @@
 .logos{
     width: 200px;
 }
-
+.speaker-logo{
+    width: 50%;
+}
 #benefits{
     background-image: linear-gradient(rgba(0,174,239,1),rgba(30,116,239,1), rgba(91,0,239,1));
 }
@@ -102,5 +104,8 @@ footer{
     padding: 5%;
     background-color: rgba(245, 245, 245, 0.85);
    }
+   .speaker-logo{
+    width:20%;
+}
 
   }
