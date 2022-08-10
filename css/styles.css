@@ -13,6 +13,7 @@
 
 .hero-section{
     width: 100vw;
+    margin: 0;
 }
 
 
@@ -44,11 +45,29 @@
     height: 200px;
     background-color: aliceblue;
 }
-.track-box{
-    margin: 30px;
+#tracks{
+    padding:5%;
 }
-.tracks{
+.track-section{
     background-color: #00AEEF;
+    margin-bottom: 5%;
+}
+
+.track{
+    height: 200px;
+    background-color: aliceblue;
+    padding: 5%;
+    border: 1px solid rgba(0,174,239,1);
+    border-radius: 15px;
+}
+.track >h4{
+    cursor:default;
+}
+.track:hover{
+    background-color: rgba(0,174,239,1);
+}
+.track:active{
+    background-color: lightblue;
 }
 #sponsors{
     background-image: linear-gradient( rgba(0,174,239,1),rgba(30,116,239,1), rgba(91,0,239,1));
@@ -59,3 +78,11 @@ footer{
     background-color: #00AEEF;
     height: 150px; 
 }
+
+@media only screen and (max-width: 768px) {
+   
+    .track{
+        margin-top: 5%;
+    }
+
+  }
