@@ -41,7 +41,9 @@
     background-image: linear-gradient(rgba(0,174,239,1),rgba(30,116,239,1), rgba(91,0,239,1));
 }
 .box{
-    width: 30vw;
+    width: 100%;
+    margin:5%;
+    padding: 10px;
     height: 200px;
     background-color: aliceblue;
 }
@@ -55,8 +57,9 @@
 
 .track{
     height: 200px;
+    margin:5%;
+    padding: 10%;
     background-color: aliceblue;
-    padding: 5%;
     border: 1px solid rgba(0,174,239,1);
     border-radius: 15px;
 }
@@ -67,7 +70,7 @@
     background-color: rgba(0,174,239,1);
 }
 .track:active{
-    background-color: lightblue;
+    background-color: teal;
 }
 #sponsors{
     background-image: linear-gradient( rgba(0,174,239,1),rgba(30,116,239,1), rgba(91,0,239,1));
@@ -78,11 +81,3 @@ footer{
     background-color: #00AEEF;
     height: 150px; 
 }
-
-@media only screen and (max-width: 768px) {
-   
-    .track{
-        margin-top: 5%;
-    }
-
-  }
