@@ -2,6 +2,11 @@
     width: 100vw;
 }
 
+.anti-hero{
+    padding: 5%;
+    align-self: center;
+   
+   }
 .hero{
     background-image: url('https://images.pexels.com/photos/7688343/pexels-photo-7688343.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
     height: 75vh;
@@ -81,3 +86,21 @@ footer{
     background-color: #00AEEF;
     height: 150px; 
 }
+
+@media only screen and (max-width: 768px) {
+   .hero-section{
+    height: 60vh;
+   }
+    .hero{
+    z-index: -2;
+    position: absolute;
+    background-position: bottom;
+   }
+   .anti-hero{
+    text-align: center;
+    height: 100%;
+    padding: 5%;
+    background-color: rgba(245, 245, 245, 0.85);
+   }
+
+  }
