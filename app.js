@@ -1,5 +1,9 @@
+
+    process.env;
+
+
+
 // change these values for your Airtable account
-process.env
 const baseValue = 'appkaGvSYPEOPfCaV';
 const table = 'Table 1';
 
