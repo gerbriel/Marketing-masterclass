@@ -1,5 +1,5 @@
 // change these values for your Airtable account
-const apiKey= 'keyd0pkd7TshGlys5'
+process.env
 const baseValue = 'appkaGvSYPEOPfCaV';
 const table = 'Table 1';
 
