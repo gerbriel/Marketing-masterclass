@@ -89,7 +89,7 @@ strong {
     width: 100%;
     margin:5%;
     padding: 10px;
-    height: 200px;
+    min-height: 250px;
     background-color: aliceblue;
 }
 
