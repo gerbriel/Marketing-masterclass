@@ -1,21 +1,24 @@
 .container{ 
     width: 100vw;
 }
-
+.logo{
+    height: 60px;
+}
 .anti-hero{
-    height: 80vh;
+    height: 85vh;
     background-color: #0C859F;
     padding: 5%;
     align-self: center;
    
    }
 .hero{
-    background-image: url('https://images.pexels.com/photos/7688343/pexels-photo-7688343.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
-    height: 80vh;
+    background-image: url('../img/marketing-masterclass.png');
+    height: 85vh;
     background-size: cover;
-    background-position: bottom left;
-    -webkit-transform: scaleX(-1);
-    transform: scaleX(-1);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    /* -webkit-transform: scaleX(-1);
+    transform: scaleX(-1); */
 }
 .hero-text{ 
     font-size: 3rem;
@@ -156,7 +159,7 @@ footer{
 
 @media only screen and (max-width: 768px) {
    .hero-section{
-    height: 80vh;
+    height: 85vh;
    }
     .hero{
     z-index: -2;
@@ -166,8 +169,8 @@ footer{
    .anti-hero{
     text-align: center;
     height: 100%;
-    padding: 5%;
-    background-color: rgba(245, 245, 245, 0.85);
+    padding: 2%;
+     background-color: rgba(12, 133, 159,0.98);
    }
    .speaker-logo{
     margin-top: 2%;
