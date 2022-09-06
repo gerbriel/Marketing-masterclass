@@ -1,21 +1,30 @@
 .container{ 
     width: 100vw;
 }
-
+.logo{
+    height: 60px;
+}
 .anti-hero{
+    height: 85vh;
+    background-color: #0C859F;
+
     padding: 5%;
     align-self: center;
    
    }
 .hero{
-    background-image: url('https://images.pexels.com/photos/7688343/pexels-photo-7688343.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
-    height: 75vh;
+    background-image: url('../img/marketing-masterclass.png');
+    height: 85vh;
     background-size: cover;
-    background-position: bottom left;
-    -webkit-transform: scaleX(-1);
-    transform: scaleX(-1);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    /* -webkit-transform: scaleX(-1);
+    transform: scaleX(-1); */
 }
-
+.hero-text{ 
+    font-size: 3rem;
+    font-weight: bold;
+}
 .hero-section{
     width: 100vw;
     margin: 0;
@@ -27,12 +36,27 @@
     border: none;
 }
 .button:hover{
+
+    background: linear-gradient(90deg, #00B1D8 3.65%, #0C859F 46.88%, #006278 100%);
+
+}
+.button-main{
+    background: linear-gradient(0deg, rgba(193, 197, 198, 0.72) 0%, #929697 25.52%, #8B8C8C 100%);
+}
+.button-main:hover{
+    background: linear-gradient(180deg, rgba(193, 197, 198, 0.72) 0%, #929697 25.52%, #8B8C8C 100%);
+}
+
+.navbar{
+    background-color: #ffffff;
+
     background-image: linear-gradient(45deg, rgba(253,197,33,1), rgba(252,253,101,1));
 
 }
 
 .navbar{
     background-color: #1685F0;
+
 }
 .logos{
     width: 200px;
@@ -47,6 +71,13 @@
     margin-top: 5%;
     width: 50%;
 }
+.speaker-img{
+    height: 250px;
+}
+.speaker-shadow{
+    box-shadow: -12px -12px 2px 1px rgba(57, 111, 118, 0.78);
+}
+
 strong {
     color:rgba(0,174,239,1);
 }
@@ -62,19 +93,19 @@ strong {
     color: white;
 }
 
+
 #testimonials{
     background-image: linear-gradient(rgba(0,174,239,1),rgba(30,116,239,1), rgba(91,0,239,1));
 }
+
 .box{
     width: 100%;
     margin:5%;
     padding: 10px;
-    height: 200px;
+    min-height: 250px;
     background-color: aliceblue;
 }
-#tracks{
-    padding: 5%;
-}
+
 .track-section{
     background-color: #00AEEF;
     margin-bottom: 5%;
@@ -85,7 +116,7 @@ strong {
     margin:5%;
     padding: 10%;
     color: black;
-    background-color: aliceblue;
+    background-color: rgba(57, 111, 118, 0.05);
     border: 1px solid rgba(0,174,239,1);
     border-radius: 15px;
 }
@@ -93,10 +124,13 @@ strong {
     cursor:default;
 }
 .track:hover{
+
+    background-color:#006278;
     background-color: rgba(0,174,239,1);
+
 }
 .track:active{
-    background-color: rgb(44, 98, 179);
+    background-color: black;
 }
 .modal{
     color: black;
@@ -105,6 +139,32 @@ strong {
     background-image: linear-gradient( rgba(0,174,239,1),rgba(30,116,239,1), rgba(91,0,239,1));
 
 }
+input,textarea{
+    width: 50vw;
+    margin-bottom:10px;
+    border: 1px solid;
+    border-radius: 3px;
+}
+textarea{
+min-height: 100px;
+}
+
+label{
+    margin-bottom:5px; 
+}
+
+.submit{
+    background-color: #006278;
+}
+.submit:hover{
+    background-color: #229bb6;
+}
+.submit:active{
+    background-color: #05282f;
+}
+.submit:visited{
+    background-color: green;
+}
 
 footer{
     background-color: #00AEEF;
@@ -112,7 +172,7 @@ footer{
 
 @media only screen and (max-width: 768px) {
    .hero-section{
-    height: 60vh;
+    height: 85vh;
    }
     .hero{
     z-index: -2;
@@ -122,8 +182,8 @@ footer{
    .anti-hero{
     text-align: center;
     height: 100%;
-    padding: 5%;
-    background-color: rgba(245, 245, 245, 0.85);
+    padding: 2%;
+     background-color: rgba(12, 133, 159,0.98);
    }
    .speaker-logo{
     margin-top: 2%;
